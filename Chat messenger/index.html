@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <title>Chat messenger</title>
+</head>
+<body>
+    <section class="chat">
+      <h1 class="visually-hidden">Чат</h1>
+    
+      <div class="chat-content">
+    
+      </div>
+    
+      <form class="chat-form" action="" method="post">
+        <input class="chat-form-input" type="text" aria-label="Your message" placeholder="Tell us what you think" required>
+        <button class="chat-form-button" type="submit">Send</button>
+      </form>
+    </section>
+    
+    <template id="message-template">
+      <div class="chat-message" tabindex="0">
+        <span class="chat-message-name">Anonymous</span>
+        <p class="chat-message-text"></p>
+        <button class="chat-message-button" type="button">Delete</button>
+      </div>
+    </template>
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>
