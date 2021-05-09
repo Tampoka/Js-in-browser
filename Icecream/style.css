@@ -121,9 +121,9 @@ body {
 }
 
 .good--unavailable::before {
-  content: "Нет в наличии";
+  content: "Not available";
 }
 
 .good--available::before {
-  content: "В наличии";
+  content: "Available";
 }
