@@ -12,7 +12,7 @@ closePopupButton.addEventListener("click", function () {
 });
 
 document.addEventListener("keydown", function (evt) {
-	if (evt.keyCode === 27) {
+	if (evt.key === "Escape") {
 		popup.classList.remove("modal--show");
 	}
 });

@@ -1,7 +1,7 @@
 var pictures = [
-	"gallery-tomato/tomato-red-large.jpg",
-	"gallery-tomato/tomato-yellow-large.jpg",
-	"gallery-tomato/tomato-strange-large.jpg",
+	"gallery/tomato-red-large.jpg",
+	"gallery/tomato-yellow-large.jpg",
+	"gallery/tomato-strange-large.jpg",
 ];
 
 var thumbnails = document.querySelectorAll(".gallery__picture-preview");

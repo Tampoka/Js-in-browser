@@ -6,34 +6,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css">
-  <title>My project</title>
+  <title>To-do</title>
 </head>
 <body>
- <h1 class="visually-hidden">Список дел</h1>
+ <h1 class="visually-hidden">My todo list</h1>
     <ul class="todo-list">
       <li class="todo-list-item">
         <label>
           <input class="todo-list-input" type="checkbox">
-          <span>Покормить кота</span>
+          <span>Feed the cat</span>
         </label>
       </li>
       <li class="todo-list-item">
         <label>
           <input class="todo-list-input" type="checkbox">
-          <span>Уехать из страны</span>
+          <span>Go for vacation</span>
         </label>
       </li>
       <li class="todo-list-item">
         <label>
           <input class="todo-list-input" type="checkbox">
-          <span>Вдариться в бега</span>
+          <span>Just quit it all</span>
         </label>
       </li>
     </ul>
-    <p class="empty-tasks hidden">Все задачи выполнены. Новых задач нет.</p>
-    <form class="add-form" action="https://echo.htmlacademy.ru/courses" method="post">
-      <input class="add-form-input" type="text"  aria-label="Описание задачи" placeholder="Например, купить слона" required>
-      <button class="add-form-button" type="submit">Добавить задачу</button>
+    <p class="empty-tasks hidden">All task are finished. No new tasks.</p>
+    <form class="add-form" action="" method="post">
+      <input class="add-form-input" type="text"  aria-label="Task description" placeholder="Start jogging" required>
+      <button class="add-form-button" type="submit">Add task</button>
     </form>
 
     <template id="task-template">
